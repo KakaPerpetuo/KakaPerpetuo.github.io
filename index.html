@@ -6,23 +6,76 @@
     body {
       text-align: center;
       background-color: rgb(80, 87, 84);
+      margin: 40px;
+      color:black;
     }
 
     p {
-      color: white;
+      color: rgb(80, 87, 84);
+      text-align: center;
     }
 
     h1 {
-      color: white;
+      color: rgb(80, 87, 84);
+      text-align: center;
     }
+
+    h2 {
+      color: rgb(80, 87, 84);
+    }
+
+    ul{
+      background-color: rgb(165, 172, 172);
+      padding: 15px;
+      border-radius: 8px;
+    }
+
+    li {
+      margin-bottom: 10px;
+      color: rgb(80, 87, 84);
+    }
+
+    .fotodeperfil{
+      border-radius: 50%; 
+      border: 4px solid rgb(80, 87, 84); 
+      padding: 5px;
+      display: block;
+      margin: auto;
+      width: 200px;
+    }
+
+    .titulo{
+      color: rgb(80, 87, 84);
+      text-align: center;
+    }
+
+    .nome{
+      font-weight: bold;
+    }
+
+    #perfil{
+      background-color: rgb(205, 206, 206);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
   </style>
 </head>
 <body>
-  <h1>Sobre mim</h1>
-  <img src="https://avatars.githubusercontent.com/u/117757580?v=4"
-    alt="Foto de Perfil"
-    width="200"
-    style="border-radius: 50%; border: 4px solid white;">
-  <p>Meu nome é Maria Clara</p>
+  <div id="perfil">
+    <h1 class="titulo">Sobre mim</h1>
+    <img src="https://avatars.githubusercontent.com/u/117757580?v=4"
+      alt="Foto de Perfil"
+      class="fotodeperfil">
+    
+    <p class="nome">Meu nome é Maria Clara</p>
+
+    <h2>Meus interesses:</h2>
+
+    <ul>
+      <li>Programacao</li>
+      <li>Jogos</li>
+    </ul>
+  </div>
 </body>
 </html>
